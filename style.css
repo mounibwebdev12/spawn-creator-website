@@ -1,0 +1,28 @@
+/* Basic style for the page */
+body {
+  background-color: #f0f0f0; /* Light background color */
+  font-family: Arial, sans-serif; /* Font style */
+}
+
+#toolsButton {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#toolsButton:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#toolsPanel {
+  display: none;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
